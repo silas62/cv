@@ -1,0 +1,89 @@
+body{margin: 0;
+    text-align: center; 
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    color: #40514E
+}
+    
+.top{
+    background-color: lightblue;
+    position: relative; 
+padding-top: 100px;}
+
+h1{
+   font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+font-family: 'Sacramento', cursive;
+color:  #66BFBF;
+line-height: 2;
+}
+
+h2{font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{color:#11999E}
+
+hr{
+    border-style: dotted none none none;
+    color: #EAF6F6 ;   
+    width: 5%;
+    border-width: 8px;
+}
+p {line-height: 2;}
+
+.cloud-top{position:absolute; right: 25%; top: 50px}
+.cloud-bottom{position:absolute;left: 25%; bottom: 300px;} /**From Bottom of parent container**/
+.Developer{text-decoration: underline;}
+.profile{ 
+    margin: auto; 
+    padding:2em;
+}
+.middletoptext{
+    margin: auto 40%;
+}
+
+.skill-row{
+    width: 50%; 
+    margin: auto; 
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-align: left;
+    
+    position: relative
+}
+.code-img{width: 22%;
+    height: auto;
+    float: left;
+    padding-right: 30px;}
+
+.chilli-img{width: 22%;
+    float: right;
+    height: auto;
+    padding-left: 30px;}
+
+.getintouchunderline {margin-bottom: 32px;}
+.submit{height: auto;  width: 10%; margin: 20px auto 30px;}
+.bottom-container{
+    background-color: #66BFBF;
+}
+.footer-link{
+    display: inline-block; 
+    margin: 3% 2% 1% 2%;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ending{
+    color: white;
+    height:100px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    
+}
+/** .skills{display: grid; place-items: center;} **/
